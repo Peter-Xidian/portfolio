@@ -527,7 +527,7 @@ img {
 }
 
 .skills__js {
-  width: 70%;
+  width: 55%;
 }
 
 .skills__tw {
@@ -692,12 +692,15 @@ img {
 
 .services__modal-service {
   display: flex;
+  /* border: 1px teal solid; */
 }
 
 .services__modal-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1-5);
+  padding-left: 1.2rem;
+  /* border: 1px red solid; */
 }
 
 .services__modal-close {
@@ -711,7 +714,8 @@ img {
 
 .services__modal-icon {
   color: var(--first-color);
-  margin-right: var(--mb-0-25);
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
   /* border: 1px red solid; */
 }
 
