@@ -1283,6 +1283,7 @@
                   type="text"
                   class="contact__input"
                   required
+                  name="name"
                   autocomplete="on"
                 />
               </div>
@@ -1293,6 +1294,7 @@
                   type="email"
                   class="contact__input"
                   required
+                  name="email"
                   autocomplete="on"
                 />
               </div>
@@ -1303,6 +1305,7 @@
                   type="text"
                   class="contact__input c__project"
                   required
+                  name="project"
                   autocomplete="on"
                 />
               </div>
@@ -1310,7 +1313,7 @@
               <div class="contact__content">
                 <label for="" class="contact__label">Message</label>
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   cols="0"
                   rows="7"
@@ -1319,9 +1322,9 @@
               </div>
 
               <div>
-                <a href="#" class="button button--flex">
+                <button class="button button--flex form-btn">
                   Send Message <i class="uil uil-message button__icon"></i>
-                </a>
+                </button>
               </div>
             </div>
           </form>

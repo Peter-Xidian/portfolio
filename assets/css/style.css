@@ -918,6 +918,15 @@ img {
   resize: none;
 }
 
+.form-btn {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-family: var(--body-font);
+  font-size: 1rem;
+}
+
 /*==================== FOOTER ====================*/
 .footer {
   padding-top: 2rem;
