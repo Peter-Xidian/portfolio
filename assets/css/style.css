@@ -729,15 +729,17 @@ img {
 .portfolio__container {
   height: fit-content;
   overflow: initial;
+  /* border: 1px dodgerblue solid; */
 }
 
 .portfolio__content {
   padding: 0 1.5rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
+  /* border: 1px red solid; */
 }
 
 .portfolio__img {
-  width: 280px;
+  width: 100%;
   border-radius: 0.5rem;
   justify-self: center;
   margin: 0;
@@ -997,7 +999,8 @@ img {
 }
 
 .scrollup:hover {
-  background-color: var(--first-color-lighter);
+  background-color: var(--first-color-alt);
+  transform: translateY(-5px);
 }
 
 .scrollup__icon {
@@ -1007,7 +1010,7 @@ img {
 
 /* Show scroll */
 .show-scroll {
-  bottom: 5rem;
+  bottom: 3rem;
 }
 
 /*========== SCROLL BAR ==========*/
