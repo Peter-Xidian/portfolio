@@ -733,6 +733,7 @@ img {
 }
 
 .portfolio__content {
+  height: 300px;
   padding: 0 1.5rem;
   margin-bottom: 1.5rem;
   /* border: 1px red solid; */
@@ -744,6 +745,9 @@ img {
   justify-self: center;
   margin: 0;
   padding: 0;
+  border: 4px white solid;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  object-fit: cover;
 }
 
 .portfolio__title {
