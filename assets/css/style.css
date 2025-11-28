@@ -541,6 +541,10 @@ img {
   width: 75%;
 }
 
+.skills__ai {
+  width: 55%;
+}
+
 .skills__py {
   width: 70%;
 }
