@@ -530,7 +530,7 @@ img {
 }
 
 .skills__html {
-  width: 100%;
+  width: 90%;
 }
 
 .skills__css {
@@ -538,11 +538,11 @@ img {
 }
 
 .skills__js {
-  width: 75%;
+  width: 55%;
 }
 
 .skills__ai {
-  width: 55%;
+  width: 25%;
 }
 
 .skills__py {
@@ -550,11 +550,11 @@ img {
 }
 
 .skills__tw {
-  width: 85%;
+  width: 70%;
 }
 
 .skills__vue {
-  width: 80%;
+  width: 50%;
 }
 
 .skills__close .skills__list {
